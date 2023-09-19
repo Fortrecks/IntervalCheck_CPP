@@ -1,32 +1,21 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main(){
 
-# Precompiled Headers
-*.gch
-*.pch
+    /*resolução de problemas
+    x1=x1+1
+    x1+=1
+    x1++ (sempre irá adicinar 1)
+    */   
+ int x1,x2;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+ x1=20;
+    
+    
+ 
+   x1++;
+   std:: cout << x1 <<  " LOSE YOUSELF\n\n" ;
+  
+    return 0;
+}
